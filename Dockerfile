@@ -1,7 +1,6 @@
 FROM docker.elastic.co/elasticsearch/elasticsearch:5.6.14
 
-ENV cluster.name=docker-els
-ENV bootstrap.memory_lock=true
+#ENV bootstrap.memory_lock=true
 ENV xpack.security.enabled=false
 ENV indices.query.bool.max_clause_count=10000
 
